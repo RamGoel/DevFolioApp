@@ -1,0 +1,27 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.form {
+  height: 500px;
+}
+
+body {
+  background-color: #fde580;
+}
+* {
+  font-family: poppins;
+}
+
+i:hover {
+  color: yellow;
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+userNameInput:-ms-input-placeholder {
+  opacity: 50%;
+}
+
+.homeImage {
+  width: 90%;
+}
