@@ -5,9 +5,12 @@ import Side from './Side';
 
 export default function Dash() {
   return (
-    <div className="d-flex justify-content-center">
-      <Page />
-      <Side />
+    <div>
+      <h1 className="text-center my-2">#Welcome</h1>
+      <div className="d-flex justify-content-center">
+        <Side />
+        <Page />
+      </div>
     </div>
   );
 }

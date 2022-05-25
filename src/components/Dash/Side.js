@@ -13,14 +13,13 @@ export default function Side() {
     );
   }
   return (
-    <div className="text-dark">
+    <div className="text-dark col-3">
       <SideItem name="Ashok" />
       <SideItem name="Ashok" />
       <SideItem name="Ashok" />
       <SideItem name="Ashok" />
       <SideItem name="Ashok" />
       <SideItem name="Ashok" />
-      Hello
     </div>
   );
 }
